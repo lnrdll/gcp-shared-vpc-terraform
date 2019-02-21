@@ -13,14 +13,13 @@ variable "project_name" {
   default     = "shared-vpc"
 }
 
-variable "org_id" {
-  description = "Organization ID"
-  default     = "662868503354"
-}
-
 variable "subnet_cidr" {
   description = "Default network subnet"
   default     = "10.10.0.0/24"
+}
+
+variable "org_id" {
+  description = "Organization ID"
 }
 
 variable "billing_id" {
@@ -29,3 +28,4 @@ variable "billing_id" {
 
 # https://github.com/terraform-providers/terraform-provider-google/blob/master/examples/shared-vpc/main.tf
 # https://cloud.google.com/community/tutorials/managing-gcp-projects-with-terraform
+

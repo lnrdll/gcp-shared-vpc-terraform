@@ -25,7 +25,3 @@ variable "org_id" {
 variable "billing_id" {
   description = "Associated billing acount"
 }
-
-# https://github.com/terraform-providers/terraform-provider-google/blob/master/examples/shared-vpc/main.tf
-# https://cloud.google.com/community/tutorials/managing-gcp-projects-with-terraform
-

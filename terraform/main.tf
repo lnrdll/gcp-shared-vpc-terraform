@@ -115,3 +115,4 @@ resource "google_compute_shared_vpc_service_project" "project_2" {
   service_project = "${google_project.project_2.project_id}"
   depends_on      = ["google_project_service.host_project", "google_project_service.project_2", "google_compute_subnetwork.shared_network_subnet"]
 }
+1
